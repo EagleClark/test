@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>URL编码</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="AJAX.js"></script>
+    </head>
+    <body>
+        <div><form name="Wordtext" method="post" action="">
+                <textarea id="word" rows="8" cols="50" name="word"></textarea><br><br>
+                <input type="button" value="编码" onclick="GetCode('encode')"/>
+            </form><br>
+            <form name="URLF" method="post" action="">
+                <textarea id="URLtext" rows="8" cols="50" name="URLtext"></textarea><br><br>
+                <input type="button" value="解码" onclick="GetCode('decode')"/>
+            </form>
+        </div>
+    </body>
+</html>
